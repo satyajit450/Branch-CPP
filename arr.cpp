@@ -38,7 +38,7 @@ int main() {
 
     int min = arr[0];
     // Finding minimum element
-    for(int i = 1; i < n; i++) {1
+    for(int i = 1; i < n; i++) {
         if(arr[i] < min) {
             min = arr[i];
         }
