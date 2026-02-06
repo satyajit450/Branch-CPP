@@ -36,5 +36,14 @@ int main() {
     }
     cout << "Maximum element: " << max << endl;
 
+    int min = arr[0];
+    // Finding minimum element
+    for(int i = 1; i < n; i++) {1
+        if(arr[i] < min) {
+            min = arr[i];
+        }
+    }
+    cout << "Minimum element: " << min << endl;
+
     return 0;
 }
