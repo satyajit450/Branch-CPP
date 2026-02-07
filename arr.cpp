@@ -43,7 +43,7 @@ int main() {
             min = arr[i];
         }
     }
-    
+    int MAX = arr[0];
     cout << "Minimum element: " << min << endl;
     for(int i=0;i<n;i++) {
         if(arr[i]> MAX) {
