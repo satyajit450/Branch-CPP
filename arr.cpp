@@ -51,6 +51,12 @@ int main() {
         }
     }
     cout << "Maximum element: " << MAX << endl;
+    int mul = 1 ;
+    // Calculating sum      
+    for(int i = 0; i < n; i++) {
+        mul *= arr[i];
+    }
+    cout << "\nMultiplication of elements: " << mul << endl;
     
 
     return 0;
